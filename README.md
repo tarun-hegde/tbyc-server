@@ -16,13 +16,14 @@ pip install -r requirements.txt
 git clone https://github.com/tarun-hegde/tbyc-server.git  
 
 2. Create a virtual environment and activate it:
-``````
+```
 virtualenv venv
 ./venv/Scripts/activate
 ```  
 
 Migrate the database:
 ```
+python manage.py makemigrations    
 python manage.py migrate  
 ```
 
