@@ -1,0 +1,15 @@
+*.env
+.git
+__pycache__
+node_modules
+vendor
+.idea
+.vscode
+.DS_Store
+Thumbs.db
+*.log
+*.min.js
+*.min.css
+*.map
+db.sqlite3
+/env
