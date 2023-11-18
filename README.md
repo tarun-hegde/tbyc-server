@@ -12,10 +12,12 @@ pip install -r requirements.txt
 
 ### Steps
 
-1. Clone the repository:
-git clone https://github.com/tarun-hegde/tbyc-server.git  
+Clone the repository:
+```
+git clone https://github.com/tarun-hegde/tbyc-server.git
+```
 
-2. Create a virtual environment and activate it:
+Create a virtual environment and activate it:
 ```
 virtualenv venv
 ./venv/Scripts/activate
